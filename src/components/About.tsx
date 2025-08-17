@@ -16,14 +16,14 @@ export default function About() {
             })
             .from(titleSplit.words, {
                 opacity: 0,
-                duration: 1,
+                duration: 0.5,
                 yPercent: 100,
                 ease: "expo.out",
                 stagger: 0.02,
             })
             .from(".top-grid div, .bottom-grid div", {
                 opacity: 0,
-                duration: 1,
+                duration: 0.5,
                 ease: "power1.inOut",
                 stagger: 0.04,
             });
